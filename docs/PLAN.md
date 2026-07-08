@@ -11,6 +11,7 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
 - **Phase:** Initial scaffold.
 - **In flight:** Public-readiness polish: field-design guidance, source-capture options, and maintainer promotion flow.
 - **Recently completed**:
+  - 2026-07-08 — Published the starter as a public GitHub repo: `ajam1097/obsidian-agent`.
   - 2026-07-08 — Added page-kind/frontmatter design guidance, source-capture options, and an `idea-research` starter skill.
   - 2026-07-08 — Created initial repo scaffold and public-safe starter structure.
 
@@ -30,7 +31,7 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
   - [ ] Add privacy scan script or checklist
   - [ ] Add `CHANGELOG.md`
   - [ ] Add friend setup walkthrough
-  - [ ] Decide GitHub visibility and remote
+  - [x] Decide GitHub visibility and remote
 - [ ] Promotion flow
   - [x] Add a maintainer checklist for promoting private skills into public starter form
   - [ ] Add examples of private-specific text rewritten into public placeholders
