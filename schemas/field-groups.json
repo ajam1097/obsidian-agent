@@ -1,0 +1,23 @@
+{
+  "identity": {
+    "label": "Identity",
+    "description": "Fields that identify the page and its kind."
+  },
+  "classification": {
+    "label": "Classification",
+    "description": "Fields used for grouping, filtering, or routing."
+  },
+  "lifecycle": {
+    "label": "Lifecycle",
+    "description": "Fields that describe the page's state."
+  },
+  "relationships": {
+    "label": "Relationships",
+    "description": "Fields that link this page to external systems or other pages."
+  },
+  "metadata": {
+    "label": "Metadata",
+    "description": "Maintenance fields."
+  }
+}
+

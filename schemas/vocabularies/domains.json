@@ -1,0 +1,10 @@
+{
+  "policy": "warn",
+  "values": {
+    "knowledge": "Learning, research, and durable understanding.",
+    "productivity": "Task, project, and workflow improvement.",
+    "home": "Household and personal operations.",
+    "technology": "Tools, software, infrastructure, and automation."
+  }
+}
+

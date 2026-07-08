@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/page-kinds/concept.schema.json",
+  "title": "Concept Page",
+  "description": "Synthesized durable knowledge.",
+  "x-vault": {
+    "kind": "concept",
+    "folder": "wiki/topics",
+    "filename": "{name}.md"
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "created", "updated"],
+  "properties": {
+    "type": {
+      "x-group": "identity",
+      "const": "concept",
+      "default": "concept"
+    },
+    "domains": {
+      "x-group": "classification",
+      "type": "array",
+      "items": { "type": "string" },
+      "x-vocabulary": "domains"
+    },
+    "maturity": {
+      "x-group": "lifecycle",
+      "enum": ["seedling", "developing", "evergreen"]
+    },
+    "created": {
+      "x-group": "metadata",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "updated": {
+      "x-group": "metadata",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  }
+}
+

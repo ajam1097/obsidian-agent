@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/page-kinds/idea.schema.json",
+  "title": "Idea Page",
+  "description": "An uncommitted possibility worth keeping.",
+  "x-vault": {
+    "kind": "idea",
+    "folder": "efforts/ideas",
+    "filename": "{name}.md"
+  },
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "idea_type", "stage", "status", "research_status", "created", "updated"],
+  "properties": {
+    "type": {
+      "x-group": "identity",
+      "const": "idea",
+      "default": "idea"
+    },
+    "idea_type": {
+      "x-group": "classification",
+      "enum": ["problem", "capability"],
+      "default": "problem"
+    },
+    "domains": {
+      "x-group": "classification",
+      "type": "array",
+      "items": { "type": "string" },
+      "x-vocabulary": "domains"
+    },
+    "stage": {
+      "x-group": "lifecycle",
+      "enum": ["seed", "framed", "shaped", "ready"],
+      "default": "seed"
+    },
+    "status": {
+      "x-group": "lifecycle",
+      "enum": ["open", "parked", "promoted", "rejected"],
+      "default": "open"
+    },
+    "research_status": {
+      "x-group": "lifecycle",
+      "enum": ["none", "requested", "researching", "complete"],
+      "default": "none"
+    },
+    "promoted_to": {
+      "x-group": "relationships",
+      "type": ["string", "null"]
+    },
+    "created": {
+      "x-group": "metadata",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "updated": {
+      "x-group": "metadata",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    }
+  }
+}
+
