@@ -15,10 +15,13 @@ Use this skill when a user has unprocessed source notes in an Obsidian vault and
 4. Propose updates to related `concept` pages.
 5. Mark the source `processed` only after the synthesis is accepted.
 
+## Capture Sources
+
+Sources may arrive through many tools: Readwise Reader, Obsidian Web Clipper, manual notes, read-it-later exports, or email/newsletter workflows. Normalize them into the same `source` shape before processing.
+
 ## Rules
 
 - Preserve source bodies.
 - Distinguish source claims from assistant judgment.
 - Prefer links to existing concept pages over creating duplicates.
 - Ask before making broad reorganizations.
-

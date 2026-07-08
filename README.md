@@ -11,6 +11,14 @@ This repo is a public, sanitized reference pattern. It is not a mirror of any pr
 - starter agent skills in one `skills/` folder,
 - a promotion flow for turning private workflow improvements into public examples.
 
+## Docs
+
+- [Architecture](docs/architecture.md) — how the vault, schemas, gate, and skills fit together.
+- [Designing page kinds](docs/designing-page-kinds.md) — probing questions for deciding page kinds, field groups, and frontmatter.
+- [Source capture options](docs/source-capture-options.md) — ways to get web/highlight/source material into the vault.
+- [Safety model](docs/safety-model.md) — what schema gates do and do not protect.
+- [Promotion flow](docs/promotion-flow.md) — maintainer guide for curating private improvements into this public starter.
+
 ## Quickstart
 
 Install the validator from the separate engine repo:
@@ -41,9 +49,9 @@ vault-management authorize sample-vault/efforts/ideas/Inbox Rules.md --vault-roo
 sample-vault/      Example Obsidian vault content using fake notes
 schemas/           Page-kind schemas consumed by vault-management
 gates/             Reference hook/wrapper patterns
-skills/            Starter assistant skills in one flat installable folder
+skills/            Starter assistant skills in one flat folder
 agents/            Optional starter agent briefs
-docs/              Architecture, safety model, and promotion flow
+docs/              Public docs plus maintainer guidance
 ```
 
 ## What To Copy
@@ -55,4 +63,3 @@ Copy the pattern, not the exact taxonomy. Start with one or two page kinds that 
 - Do not point a write gate at your real vault until audits pass.
 - Do not publish your live vault without an allowlist export and privacy scan.
 - Do not auto-sync private skills into a public repo. Promote generalized, tested snapshots.
-

@@ -9,8 +9,9 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
 ## Status
 
 - **Phase:** Initial scaffold.
-- **In flight:** Build a small public-safe starter with five page kinds and a flat `skills/` folder.
+- **In flight:** Public-readiness polish: field-design guidance, source-capture options, and maintainer promotion flow.
 - **Recently completed**:
+  - 2026-07-08 — Added page-kind/frontmatter design guidance, source-capture options, and an `idea-research` starter skill.
   - 2026-07-08 — Created initial repo scaffold and public-safe starter structure.
 
 ## Roadmap
@@ -23,12 +24,15 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
   - [x] Verify sample audits pass
   - [x] Initialize git repo
 - [ ] Public-readiness pass
+  - [x] Add page-kind/frontmatter design guide
+  - [x] Add source capture options
+  - [x] Add idea research starter skill
   - [ ] Add privacy scan script or checklist
   - [ ] Add `CHANGELOG.md`
   - [ ] Add friend setup walkthrough
   - [ ] Decide GitHub visibility and remote
 - [ ] Promotion flow
-  - [ ] Add a small script or checklist for promoting private skills into public starter form
+  - [x] Add a maintainer checklist for promoting private skills into public starter form
   - [ ] Add examples of private-specific text rewritten into public placeholders
 
 ## Backlog
@@ -40,7 +44,7 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
 ## Ideas
 
 - A generated HTML diagram for the architecture.
-- A small "schema design interview" worksheet for people adapting the starter.
+- A generated worksheet version of the page-kind design questions.
 
 ## Decisions
 

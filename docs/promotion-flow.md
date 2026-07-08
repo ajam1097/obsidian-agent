@@ -1,5 +1,7 @@
 # Private To Public Promotion Flow
 
+This is a maintainer guide for this starter repo. It belongs in the public repo because it explains how public examples stay clean, but it does **not** belong in a user's sample vault as operational knowledge.
+
 Do not mirror private skills or schemas into this repo automatically. Promote public updates intentionally.
 
 ## Flow
@@ -24,7 +26,7 @@ Do not mirror private skills or schemas into this repo automatically. Promote pu
 
 5. **Check before publishing.**
    - Sample vault audits pass.
-   - No private paths, names, IDs, or secrets.
+   - No private paths, names, IDs, or credentials.
    - README or docs explain any new assumption.
    - `CHANGELOG.md` notes the public-facing change once a changelog exists.
 
@@ -33,4 +35,3 @@ Do not mirror private skills or schemas into this repo automatically. Promote pu
 If the change improves the reusable pattern, promote it here.
 
 If the change only improves one private operating system, keep it private until the reusable lesson is clear.
-

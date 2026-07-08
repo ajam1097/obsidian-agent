@@ -46,3 +46,13 @@ This repo starts with five page kinds:
 
 That is enough to show the workflow without turning the starter into someone else's whole operating system.
 
+## Designing Your Own Model
+
+Do not start by copying every sample kind. Start by asking:
+
+- What pages do agents need to read or update repeatedly?
+- Which pages have lifecycle state?
+- Which fields will be queried or displayed across pages?
+- Which writes should require human review?
+
+See [Designing page kinds](designing-page-kinds.md) for the worksheet.
