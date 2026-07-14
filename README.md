@@ -1,6 +1,6 @@
-# obsidian-agent
+# Trellis
 
-A starter kit for running an Obsidian vault with agent-friendly structure, schema validation, and reviewable assistant workflows.
+Where knowledge grows into action. Trellis is a starter kit for running an Obsidian vault with agent-friendly structure, schema validation, and reviewable assistant workflows.
 
 This repo is a public, sanitized reference pattern. It is not a mirror of any private vault. It shows how to combine:
 
@@ -63,3 +63,7 @@ Copy the pattern, not the exact taxonomy. Start with one or two page kinds that 
 - Do not point a write gate at your real vault until audits pass.
 - Do not publish your live vault without an allowlist export and privacy scan.
 - Do not auto-sync private skills into a public repo. Promote generalized, tested snapshots.
+
+## Related Project
+
+[Forge](https://github.com/ajam1097/forge) is the federated public library for domain-general agent skills. Trellis remains the public home for Obsidian-specific starter workflows.
