@@ -1,8 +1,8 @@
-# obsidian-agent Plan
+# Trellis Plan
 
 ## Outcome
 
-A public starter repo demonstrates a schema-gated Obsidian + agent workflow pattern end to end: sample vault, sample schemas, sample gate, starter skills, and a private-to-public promotion flow.
+Trellis demonstrates a schema-gated Obsidian + agent workflow pattern end to end: sample vault, sample schemas, sample gate, starter skills, and a private-to-public promotion flow.
 
 Non-goals: publishing a private vault; replacing `vault-management`; shipping production-ready Codex/Claude hook packages; mirroring private skill repos automatically.
 
@@ -11,6 +11,7 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
 - **Phase:** Initial scaffold.
 - **In flight:** Public-readiness polish: field-design guidance, source-capture options, and maintainer promotion flow.
 - **Recently completed**:
+  - 2026-07-13 — Renamed the public starter to Trellis at `ajam1097/trellis`; tagline: "Where knowledge grows into action."
   - 2026-07-08 — Published the starter as a public GitHub repo: `ajam1097/obsidian-agent`.
   - 2026-07-08 — Added page-kind/frontmatter design guidance, source-capture options, and an `idea-research` starter skill.
   - 2026-07-08 — Created initial repo scaffold and public-safe starter structure.
@@ -51,12 +52,12 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
 
 ### Open
 
-- Final public name and repo description.
 - Whether the sample taxonomy should stay at five kinds or grow toward a fuller reference model.
 - Whether to include runnable hook scripts or keep gates as documented examples only.
 
 ### Locked
 
+- 2026-07-13 — Public name is **Trellis** at `ajam1097/trellis`; the name reflects a governed structure that helps knowledge grow into action.
 - 2026-07-08 — Keep `vault-management` separate as the engine package; this repo is the starter/reference kit.
 - 2026-07-08 — Keep skills in one flat `skills/` folder for the starter.
 

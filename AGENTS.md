@@ -1,4 +1,4 @@
-# obsidian-agent Agent Notes
+# Trellis Agent Notes
 
 Read this file before making changes in this project. Then read `docs/PLAN.md` for current status and next work.
 
