@@ -1,6 +1,6 @@
 # Architecture
 
-`obsidian-agent` demonstrates a layered pattern:
+Trellis demonstrates a layered pattern:
 
 ```text
 agent skill decides intent
