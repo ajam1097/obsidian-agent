@@ -14,6 +14,7 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
   - 2026-07-08 — Published the starter as a public GitHub repo: `ajam1097/obsidian-agent`.
   - 2026-07-08 — Added page-kind/frontmatter design guidance, source-capture options, and an `idea-research` starter skill.
   - 2026-07-08 — Created initial repo scaffold and public-safe starter structure.
+  - 2026-07-09 — Added delegated-task-routing starter skill with public-safe route config.
 
 ## Roadmap
 
@@ -28,19 +29,21 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
   - [x] Add page-kind/frontmatter design guide
   - [x] Add source capture options
   - [x] Add idea research starter skill
-  - [ ] Add privacy scan script or checklist
+  - [ ] Add privacy scan script or checklist — plan: reuse the dual-scan tooling (personal-content + secret scans) from the agent-skills engineering framework once built, rather than a bespoke checklist (see `assistant-systems/skills/agent-skills/docs/DESIGN.md` §12 "Federation with obsidian-agent")
   - [ ] Add `CHANGELOG.md`
   - [ ] Add friend setup walkthrough
   - [x] Decide GitHub visibility and remote
 - [ ] Promotion flow
   - [x] Add a maintainer checklist for promoting private skills into public starter form
   - [ ] Add examples of private-specific text rewritten into public placeholders
+  - [x] Add a delegated task routing starter skill and route config
 
 ## Backlog
 
 - Add a minimal CI workflow once the public remote exists.
 - Add a sample valid/invalid write test using `vault-management authorize`.
 - Add optional adapter notes for Claude Code and Codex hooks.
+- Adopt engineering-framework patterns from agent-skills (federation, 2026-07-12): declare a `light` engineering profile + verification commands (the sample-vault audits) in AGENTS.md; cross-reference the upcoming public skill library in README (and be cross-referenced back).
 
 ## Ideas
 
@@ -59,6 +62,7 @@ Non-goals: publishing a private vault; replacing `vault-management`; shipping pr
 
 - 2026-07-08 — Keep `vault-management` separate as the engine package; this repo is the starter/reference kit.
 - 2026-07-08 — Keep skills in one flat `skills/` folder for the starter.
+- 2026-07-12 — Stay a separate public repo, federated with the upcoming agent-skills public library (not absorbed): this repo is the one public home for vault/Obsidian-workflow starter skills; general skills publish to the library; READMEs cross-reference. Framework patterns flow INTO this repo (profile, dual-scan tooling); this repo's promotion triage vocabulary and placeholder conventions were adopted by the library.
 
 ## References
 

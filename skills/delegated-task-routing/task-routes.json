@@ -1,0 +1,78 @@
+{
+  "default_completion_check": "Complete or close the source task only after the requested artifact, change, or answer exists and has been reviewed.",
+  "routes": [
+    {
+      "work_type": "planning",
+      "agent_role": "planner_or_default",
+      "model_route": "strongest_available_planning_model",
+      "keywords": [
+        "plan",
+        "design",
+        "decide",
+        "feedback",
+        "strategy",
+        "what should"
+      ],
+      "description": "Ambiguous planning, synthesis, and workflow design."
+    },
+    {
+      "work_type": "architecture",
+      "agent_role": "planner_or_default",
+      "model_route": "strongest_available_model",
+      "keywords": [
+        "architecture",
+        "schema",
+        "template",
+        "standard",
+        "structure"
+      ],
+      "description": "System shape, schema, template, and standards decisions."
+    },
+    {
+      "work_type": "implementation",
+      "agent_role": "worker",
+      "model_route": "default_or_strong_coding_model",
+      "keywords": [
+        "implement",
+        "fix",
+        "script",
+        "configure",
+        "option",
+        "edit"
+      ],
+      "description": "Bounded execution with clear ownership."
+    },
+    {
+      "work_type": "codebase_question",
+      "agent_role": "explorer",
+      "model_route": "default",
+      "keywords": [
+        "where",
+        "how is",
+        "is there",
+        "codebase",
+        "repo"
+      ],
+      "description": "Specific read-only repository questions."
+    },
+    {
+      "work_type": "vault_maintenance",
+      "agent_role": "vault_maintainer_or_default",
+      "model_route": "default_or_strongest_if_planning",
+      "keywords": [
+        "inbox",
+        "source processing",
+        "vault cleanup",
+        "schema audit"
+      ],
+      "description": "Vault maintenance that may involve review-gated writes."
+    },
+    {
+      "work_type": "triage",
+      "agent_role": "default",
+      "model_route": "default",
+      "keywords": [],
+      "description": "Fallback when no route matches."
+    }
+  ]
+}
