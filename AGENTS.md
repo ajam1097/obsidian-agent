@@ -1,12 +1,11 @@
 # Trellis Agent Notes
 
-Read this file before making changes in this project. Then read `docs/PLAN.md` for current status and next work.
+Read this file before making changes in this project. Then read `CONTRIBUTING.md` for how changes reach this repository.
 
 ## Project Shape
 
-- Lane: `vault-work`
+- Distribution: generated snapshot published from a private canonical source; see `CONTRIBUTING.md`
 - Stack: Markdown, JSON Schema, Python-compatible CLI examples
-- Canonical plan: `docs/PLAN.md`
 - Design docs: `docs/architecture.md`, `docs/promotion-flow.md`
 
 ## Commands
@@ -25,7 +24,6 @@ vault-management page audit --kind system --vault-root sample-vault --schema-roo
 - Keep skills in a single `skills/` folder. This starter favors easy cloning over tool-specific packaging lanes.
 - Treat `vault-management` as an external engine. Do not vendor its source here.
 - Use fake sample notes that demonstrate behavior without mirroring a real vault.
-- Update `docs/PLAN.md` when status or roadmap changes.
 
 ## Working Notes
 
