@@ -4,7 +4,7 @@ Read this file before making changes in this project. Then read `docs/PLAN.md` f
 
 ## Project Shape
 
-- Lane: `vault-work`
+- Distribution checkout: `vault/trellis`
 - Stack: Markdown, JSON Schema, Python-compatible CLI examples
 - Canonical plan: `docs/PLAN.md`
 - Design docs: `docs/architecture.md`, `docs/promotion-flow.md`

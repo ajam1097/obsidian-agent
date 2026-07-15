@@ -11,6 +11,8 @@ This repo is a public, sanitized reference pattern. It is not a mirror of any pr
 - starter agent skills in one `skills/` folder,
 - a promotion flow for turning private workflow improvements into public examples.
 
+This public repository is a generated distribution. Its canonical source is the intentionally public `public/trellis/` tree in private My Trellis. Generated does not mean copied from private schemas: these examples are curated specifically for public use.
+
 ## Docs
 
 - [Architecture](docs/architecture.md) — how the vault, schemas, gate, and skills fit together.
@@ -67,3 +69,7 @@ Copy the pattern, not the exact taxonomy. Start with one or two page kinds that 
 ## Related Project
 
 [Forge](https://github.com/ajam1097/forge) is the federated public library for domain-general agent skills. Trellis remains the public home for Obsidian-specific starter workflows.
+
+## Contributing
+
+Do not treat this generated repository as the canonical editing surface. Open an issue or pull request for review; maintainers back-port accepted changes into My Trellis and publish a new approval-gated snapshot. See [CONTRIBUTING.md](CONTRIBUTING.md).

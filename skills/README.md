@@ -8,6 +8,7 @@ skills/
   project-audit/
   session-close/
   process-new-sources/
+  delegated-task-routing/
 ```
 
 These are intentionally smaller than private production skills. They show the operating pattern:
@@ -23,3 +24,5 @@ These are intentionally smaller than private production skills. They show the op
 - `project-audit` — review project state and drift without automatic repairs.
 - `process-new-sources` — turn captured source pages into concept-page suggestions.
 - `session-close` — preserve durable session state without routine logs.
+
+- `delegated-task-routing` — classify assistant-owned task queues before dispatching work to agents.
